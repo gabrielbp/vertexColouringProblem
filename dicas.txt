@@ -1,0 +1,5 @@
+/* Rodar e gerar saída */
+rodar: glpsol -m vertexcolouringproblem.mod -o vertexcolouringproblem.out
+
+/* Rodar e receber os dados e gerar saída */
+rodar: glpsol -m vertexcolouringproblem.mod -d dados.dat -o vertexcolouringproblem.out
