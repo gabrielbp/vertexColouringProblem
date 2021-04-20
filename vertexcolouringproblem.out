@@ -1,7 +1,7 @@
 Problem:    vertexcolouringproblem
-Rows:       261
+Rows:       161
 Columns:    110 (110 integer, 110 binary)
-Non-zeros:  610
+Non-zeros:  560
 Status:     INTEGER OPTIMAL
 Objective:  qtdCores = 3 (MINimum)
 
@@ -28,516 +28,316 @@ Objective:  qtdCores = 3 (MINimum)
                                    1             1             = 
     11 verticeTemCor[10]
                                    1             1             = 
-    12 arcoSemDoisVerticesMesmaCor[1,2,1]
-                                   0                           1 
-    13 arcoSemDoisVerticesMesmaCor[1,2,2]
-                                   0                           1 
-    14 arcoSemDoisVerticesMesmaCor[1,2,3]
-                                   0                           1 
-    15 arcoSemDoisVerticesMesmaCor[1,2,4]
-                                   0                           1 
-    16 arcoSemDoisVerticesMesmaCor[1,2,5]
-                                   0                           1 
-    17 arcoSemDoisVerticesMesmaCor[1,2,6]
-                                   0                           1 
-    18 arcoSemDoisVerticesMesmaCor[1,2,7]
-                                   1                           1 
-    19 arcoSemDoisVerticesMesmaCor[1,2,8]
-                                   0                           1 
-    20 arcoSemDoisVerticesMesmaCor[1,2,9]
-                                   1                           1 
-    21 arcoSemDoisVerticesMesmaCor[1,2,10]
-                                   0                           1 
-    22 arcoSemDoisVerticesMesmaCor[1,4,1]
-                                   0                           1 
-    23 arcoSemDoisVerticesMesmaCor[1,4,2]
-                                   0                           1 
-    24 arcoSemDoisVerticesMesmaCor[1,4,3]
-                                   0                           1 
-    25 arcoSemDoisVerticesMesmaCor[1,4,4]
-                                   0                           1 
-    26 arcoSemDoisVerticesMesmaCor[1,4,5]
-                                   0                           1 
-    27 arcoSemDoisVerticesMesmaCor[1,4,6]
-                                   0                           1 
-    28 arcoSemDoisVerticesMesmaCor[1,4,7]
-                                   1                           1 
-    29 arcoSemDoisVerticesMesmaCor[1,4,8]
-                                   0                           1 
-    30 arcoSemDoisVerticesMesmaCor[1,4,9]
-                                   1                           1 
-    31 arcoSemDoisVerticesMesmaCor[1,4,10]
-                                   0                           1 
-    32 arcoSemDoisVerticesMesmaCor[1,6,1]
-                                   0                           1 
-    33 arcoSemDoisVerticesMesmaCor[1,6,2]
-                                   0                           1 
-    34 arcoSemDoisVerticesMesmaCor[1,6,3]
-                                   0                           1 
-    35 arcoSemDoisVerticesMesmaCor[1,6,4]
-                                   0                           1 
-    36 arcoSemDoisVerticesMesmaCor[1,6,5]
-                                   0                           1 
-    37 arcoSemDoisVerticesMesmaCor[1,6,6]
-                                   0                           1 
-    38 arcoSemDoisVerticesMesmaCor[1,6,7]
-                                   1                           1 
-    39 arcoSemDoisVerticesMesmaCor[1,6,8]
-                                   0                           1 
-    40 arcoSemDoisVerticesMesmaCor[1,6,9]
-                                   1                           1 
-    41 arcoSemDoisVerticesMesmaCor[1,6,10]
-                                   0                           1 
-    42 arcoSemDoisVerticesMesmaCor[2,3,1]
-                                   0                           1 
-    43 arcoSemDoisVerticesMesmaCor[2,3,2]
-                                   0                           1 
-    44 arcoSemDoisVerticesMesmaCor[2,3,3]
-                                   0                           1 
-    45 arcoSemDoisVerticesMesmaCor[2,3,4]
-                                   0                           1 
-    46 arcoSemDoisVerticesMesmaCor[2,3,5]
-                                   0                           1 
-    47 arcoSemDoisVerticesMesmaCor[2,3,6]
-                                   0                           1 
-    48 arcoSemDoisVerticesMesmaCor[2,3,7]
-                                   1                           1 
-    49 arcoSemDoisVerticesMesmaCor[2,3,8]
-                                   0                           1 
-    50 arcoSemDoisVerticesMesmaCor[2,3,9]
-                                   1                           1 
-    51 arcoSemDoisVerticesMesmaCor[2,3,10]
-                                   0                           1 
-    52 arcoSemDoisVerticesMesmaCor[2,9,1]
-                                   1                           1 
-    53 arcoSemDoisVerticesMesmaCor[2,9,2]
-                                   0                           1 
-    54 arcoSemDoisVerticesMesmaCor[2,9,3]
-                                   0                           1 
-    55 arcoSemDoisVerticesMesmaCor[2,9,4]
-                                   0                           1 
-    56 arcoSemDoisVerticesMesmaCor[2,9,5]
-                                   0                           1 
-    57 arcoSemDoisVerticesMesmaCor[2,9,6]
-                                   0                           1 
-    58 arcoSemDoisVerticesMesmaCor[2,9,7]
-                                   0                           1 
-    59 arcoSemDoisVerticesMesmaCor[2,9,8]
-                                   0                           1 
-    60 arcoSemDoisVerticesMesmaCor[2,9,9]
-                                   1                           1 
-    61 arcoSemDoisVerticesMesmaCor[2,9,10]
-                                   0                           1 
-    62 arcoSemDoisVerticesMesmaCor[3,5,1]
-                                   1                           1 
-    63 arcoSemDoisVerticesMesmaCor[3,5,2]
-                                   0                           1 
-    64 arcoSemDoisVerticesMesmaCor[3,5,3]
-                                   0                           1 
-    65 arcoSemDoisVerticesMesmaCor[3,5,4]
-                                   0                           1 
-    66 arcoSemDoisVerticesMesmaCor[3,5,5]
-                                   0                           1 
-    67 arcoSemDoisVerticesMesmaCor[3,5,6]
-                                   0                           1 
-    68 arcoSemDoisVerticesMesmaCor[3,5,7]
-                                   1                           1 
-    69 arcoSemDoisVerticesMesmaCor[3,5,8]
-                                   0                           1 
-    70 arcoSemDoisVerticesMesmaCor[3,5,9]
-                                   0                           1 
-    71 arcoSemDoisVerticesMesmaCor[3,5,10]
-                                   0                           1 
-    72 arcoSemDoisVerticesMesmaCor[3,8,1]
-                                   1                           1 
-    73 arcoSemDoisVerticesMesmaCor[3,8,2]
-                                   0                           1 
-    74 arcoSemDoisVerticesMesmaCor[3,8,3]
-                                   0                           1 
-    75 arcoSemDoisVerticesMesmaCor[3,8,4]
-                                   0                           1 
-    76 arcoSemDoisVerticesMesmaCor[3,8,5]
-                                   0                           1 
-    77 arcoSemDoisVerticesMesmaCor[3,8,6]
-                                   0                           1 
-    78 arcoSemDoisVerticesMesmaCor[3,8,7]
-                                   1                           1 
-    79 arcoSemDoisVerticesMesmaCor[3,8,8]
-                                   0                           1 
-    80 arcoSemDoisVerticesMesmaCor[3,8,9]
-                                   0                           1 
-    81 arcoSemDoisVerticesMesmaCor[3,8,10]
-                                   0                           1 
-    82 arcoSemDoisVerticesMesmaCor[4,7,1]
-                                   0                           1 
-    83 arcoSemDoisVerticesMesmaCor[4,7,2]
-                                   0                           1 
-    84 arcoSemDoisVerticesMesmaCor[4,7,3]
-                                   0                           1 
-    85 arcoSemDoisVerticesMesmaCor[4,7,4]
-                                   0                           1 
-    86 arcoSemDoisVerticesMesmaCor[4,7,5]
-                                   0                           1 
-    87 arcoSemDoisVerticesMesmaCor[4,7,6]
-                                   0                           1 
-    88 arcoSemDoisVerticesMesmaCor[4,7,7]
-                                   1                           1 
-    89 arcoSemDoisVerticesMesmaCor[4,7,8]
-                                   0                           1 
-    90 arcoSemDoisVerticesMesmaCor[4,7,9]
-                                   1                           1 
-    91 arcoSemDoisVerticesMesmaCor[4,7,10]
-                                   0                           1 
-    92 arcoSemDoisVerticesMesmaCor[4,8,1]
-                                   1                           1 
-    93 arcoSemDoisVerticesMesmaCor[4,8,2]
-                                   0                           1 
-    94 arcoSemDoisVerticesMesmaCor[4,8,3]
-                                   0                           1 
-    95 arcoSemDoisVerticesMesmaCor[4,8,4]
-                                   0                           1 
-    96 arcoSemDoisVerticesMesmaCor[4,8,5]
-                                   0                           1 
-    97 arcoSemDoisVerticesMesmaCor[4,8,6]
-                                   0                           1 
-    98 arcoSemDoisVerticesMesmaCor[4,8,7]
-                                   0                           1 
-    99 arcoSemDoisVerticesMesmaCor[4,8,8]
-                                   0                           1 
-   100 arcoSemDoisVerticesMesmaCor[4,8,9]
-                                   1                           1 
-   101 arcoSemDoisVerticesMesmaCor[4,8,10]
-                                   0                           1 
-   102 arcoSemDoisVerticesMesmaCor[5,6,1]
-                                   1                           1 
-   103 arcoSemDoisVerticesMesmaCor[5,6,2]
-                                   0                           1 
-   104 arcoSemDoisVerticesMesmaCor[5,6,3]
-                                   0                           1 
-   105 arcoSemDoisVerticesMesmaCor[5,6,4]
-                                   0                           1 
-   106 arcoSemDoisVerticesMesmaCor[5,6,5]
-                                   0                           1 
-   107 arcoSemDoisVerticesMesmaCor[5,6,6]
-                                   0                           1 
-   108 arcoSemDoisVerticesMesmaCor[5,6,7]
-                                   0                           1 
-   109 arcoSemDoisVerticesMesmaCor[5,6,8]
-                                   0                           1 
-   110 arcoSemDoisVerticesMesmaCor[5,6,9]
-                                   1                           1 
-   111 arcoSemDoisVerticesMesmaCor[5,6,10]
-                                   0                           1 
-   112 arcoSemDoisVerticesMesmaCor[5,7,1]
-                                   1                           1 
-   113 arcoSemDoisVerticesMesmaCor[5,7,2]
-                                   0                           1 
-   114 arcoSemDoisVerticesMesmaCor[5,7,3]
-                                   0                           1 
-   115 arcoSemDoisVerticesMesmaCor[5,7,4]
-                                   0                           1 
-   116 arcoSemDoisVerticesMesmaCor[5,7,5]
-                                   0                           1 
-   117 arcoSemDoisVerticesMesmaCor[5,7,6]
-                                   0                           1 
-   118 arcoSemDoisVerticesMesmaCor[5,7,7]
-                                   1                           1 
-   119 arcoSemDoisVerticesMesmaCor[5,7,8]
-                                   0                           1 
-   120 arcoSemDoisVerticesMesmaCor[5,7,9]
-                                   0                           1 
-   121 arcoSemDoisVerticesMesmaCor[5,7,10]
-                                   0                           1 
-   122 arcoSemDoisVerticesMesmaCor[6,10,1]
-                                   0                           1 
-   123 arcoSemDoisVerticesMesmaCor[6,10,2]
-                                   0                           1 
-   124 arcoSemDoisVerticesMesmaCor[6,10,3]
-                                   0                           1 
-   125 arcoSemDoisVerticesMesmaCor[6,10,4]
-                                   0                           1 
-   126 arcoSemDoisVerticesMesmaCor[6,10,5]
-                                   0                           1 
-   127 arcoSemDoisVerticesMesmaCor[6,10,6]
-                                   0                           1 
-   128 arcoSemDoisVerticesMesmaCor[6,10,7]
-                                   1                           1 
-   129 arcoSemDoisVerticesMesmaCor[6,10,8]
-                                   0                           1 
-   130 arcoSemDoisVerticesMesmaCor[6,10,9]
-                                   1                           1 
-   131 arcoSemDoisVerticesMesmaCor[6,10,10]
-                                   0                           1 
-   132 arcoSemDoisVerticesMesmaCor[7,9,1]
-                                   1                           1 
-   133 arcoSemDoisVerticesMesmaCor[7,9,2]
-                                   0                           1 
-   134 arcoSemDoisVerticesMesmaCor[7,9,3]
-                                   0                           1 
-   135 arcoSemDoisVerticesMesmaCor[7,9,4]
-                                   0                           1 
-   136 arcoSemDoisVerticesMesmaCor[7,9,5]
-                                   0                           1 
-   137 arcoSemDoisVerticesMesmaCor[7,9,6]
-                                   0                           1 
-   138 arcoSemDoisVerticesMesmaCor[7,9,7]
-                                   1                           1 
-   139 arcoSemDoisVerticesMesmaCor[7,9,8]
-                                   0                           1 
-   140 arcoSemDoisVerticesMesmaCor[7,9,9]
-                                   0                           1 
-   141 arcoSemDoisVerticesMesmaCor[7,9,10]
-                                   0                           1 
-   142 arcoSemDoisVerticesMesmaCor[8,10,1]
-                                   1                           1 
-   143 arcoSemDoisVerticesMesmaCor[8,10,2]
-                                   0                           1 
-   144 arcoSemDoisVerticesMesmaCor[8,10,3]
-                                   0                           1 
-   145 arcoSemDoisVerticesMesmaCor[8,10,4]
-                                   0                           1 
-   146 arcoSemDoisVerticesMesmaCor[8,10,5]
-                                   0                           1 
-   147 arcoSemDoisVerticesMesmaCor[8,10,6]
-                                   0                           1 
-   148 arcoSemDoisVerticesMesmaCor[8,10,7]
-                                   1                           1 
-   149 arcoSemDoisVerticesMesmaCor[8,10,8]
-                                   0                           1 
-   150 arcoSemDoisVerticesMesmaCor[8,10,9]
-                                   0                           1 
-   151 arcoSemDoisVerticesMesmaCor[8,10,10]
-                                   0                           1 
-   152 arcoSemDoisVerticesMesmaCor[9,10,1]
-                                   1                           1 
-   153 arcoSemDoisVerticesMesmaCor[9,10,2]
-                                   0                           1 
-   154 arcoSemDoisVerticesMesmaCor[9,10,3]
-                                   0                           1 
-   155 arcoSemDoisVerticesMesmaCor[9,10,4]
-                                   0                           1 
-   156 arcoSemDoisVerticesMesmaCor[9,10,5]
-                                   0                           1 
-   157 arcoSemDoisVerticesMesmaCor[9,10,6]
-                                   0                           1 
-   158 arcoSemDoisVerticesMesmaCor[9,10,7]
-                                   1                           1 
-   159 arcoSemDoisVerticesMesmaCor[9,10,8]
-                                   0                           1 
-   160 arcoSemDoisVerticesMesmaCor[9,10,9]
-                                   0                           1 
-   161 arcoSemDoisVerticesMesmaCor[9,10,10]
-                                   0                           1 
-   162 colorirVerticeComCorExistente[1,1]
+    12 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,1]
+                                   0                          -0 
+    13 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,2]
                                   -1                          -0 
-   163 colorirVerticeComCorExistente[1,2]
+    14 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,3]
                                    0                          -0 
-   164 colorirVerticeComCorExistente[1,3]
+    15 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,4]
                                    0                          -0 
-   165 colorirVerticeComCorExistente[1,4]
+    16 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,5]
                                    0                          -0 
-   166 colorirVerticeComCorExistente[1,5]
+    17 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,6]
                                    0                          -0 
-   167 colorirVerticeComCorExistente[1,6]
+    18 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,7]
                                    0                          -0 
-   168 colorirVerticeComCorExistente[1,7]
+    19 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,8]
                                    0                          -0 
-   169 colorirVerticeComCorExistente[1,8]
+    20 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,9]
                                    0                          -0 
-   170 colorirVerticeComCorExistente[1,9]
+    21 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,2,10]
+                                   0                          -0 
+    22 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,1]
+                                   0                          -0 
+    23 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,2]
+                                   0                          -0 
+    24 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,3]
+                                   0                          -0 
+    25 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,4]
+                                   0                          -0 
+    26 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,5]
+                                   0                          -0 
+    27 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,6]
+                                   0                          -0 
+    28 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,7]
+                                   0                          -0 
+    29 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,8]
+                                   0                          -0 
+    30 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,9]
+                                   0                          -0 
+    31 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,4,10]
                                   -1                          -0 
-   171 colorirVerticeComCorExistente[1,10]
+    32 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,1]
                                    0                          -0 
-   172 colorirVerticeComCorExistente[2,1]
+    33 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,2]
+                                   0                          -0 
+    34 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,3]
+                                   0                          -0 
+    35 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,4]
+                                   0                          -0 
+    36 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,5]
+                                   0                          -0 
+    37 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,6]
+                                   0                          -0 
+    38 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,7]
+                                   0                          -0 
+    39 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,8]
+                                   0                          -0 
+    40 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,9]
+                                   0                          -0 
+    41 arcoSemDoisVerticesMesmaCorQueEhUtilizada[1,6,10]
                                   -1                          -0 
-   173 colorirVerticeComCorExistente[2,2]
+    42 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,1]
                                    0                          -0 
-   174 colorirVerticeComCorExistente[2,3]
-                                   0                          -0 
-   175 colorirVerticeComCorExistente[2,4]
-                                   0                          -0 
-   176 colorirVerticeComCorExistente[2,5]
-                                   0                          -0 
-   177 colorirVerticeComCorExistente[2,6]
-                                   0                          -0 
-   178 colorirVerticeComCorExistente[2,7]
+    43 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,2]
                                   -1                          -0 
-   179 colorirVerticeComCorExistente[2,8]
+    44 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,3]
                                    0                          -0 
-   180 colorirVerticeComCorExistente[2,9]
+    45 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,4]
                                    0                          -0 
-   181 colorirVerticeComCorExistente[2,10]
+    46 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,5]
                                    0                          -0 
-   182 colorirVerticeComCorExistente[3,1]
+    47 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,6]
+                                   0                          -0 
+    48 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,7]
+                                   0                          -0 
+    49 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,8]
+                                   0                          -0 
+    50 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,9]
+                                   0                          -0 
+    51 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,3,10]
+                                   0                          -0 
+    52 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,1]
                                   -1                          -0 
-   183 colorirVerticeComCorExistente[3,2]
+    53 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,2]
                                    0                          -0 
-   184 colorirVerticeComCorExistente[3,3]
+    54 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,3]
                                    0                          -0 
-   185 colorirVerticeComCorExistente[3,4]
+    55 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,4]
                                    0                          -0 
-   186 colorirVerticeComCorExistente[3,5]
+    56 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,5]
                                    0                          -0 
-   187 colorirVerticeComCorExistente[3,6]
+    57 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,6]
                                    0                          -0 
-   188 colorirVerticeComCorExistente[3,7]
+    58 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,7]
                                    0                          -0 
-   189 colorirVerticeComCorExistente[3,8]
+    59 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,8]
                                    0                          -0 
-   190 colorirVerticeComCorExistente[3,9]
+    60 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,9]
+                                   0                          -0 
+    61 arcoSemDoisVerticesMesmaCorQueEhUtilizada[2,9,10]
+                                   0                          -0 
+    62 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,1]
+                                   0                          -0 
+    63 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,2]
                                   -1                          -0 
-   191 colorirVerticeComCorExistente[3,10]
+    64 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,3]
                                    0                          -0 
-   192 colorirVerticeComCorExistente[4,1]
+    65 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,4]
+                                   0                          -0 
+    66 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,5]
+                                   0                          -0 
+    67 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,6]
+                                   0                          -0 
+    68 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,7]
+                                   0                          -0 
+    69 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,8]
+                                   0                          -0 
+    70 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,9]
+                                   0                          -0 
+    71 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,5,10]
+                                   0                          -0 
+    72 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,1]
+                                   0                          -0 
+    73 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,2]
                                   -1                          -0 
-   193 colorirVerticeComCorExistente[4,2]
+    74 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,3]
                                    0                          -0 
-   194 colorirVerticeComCorExistente[4,3]
+    75 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,4]
                                    0                          -0 
-   195 colorirVerticeComCorExistente[4,4]
+    76 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,5]
                                    0                          -0 
-   196 colorirVerticeComCorExistente[4,5]
+    77 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,6]
                                    0                          -0 
-   197 colorirVerticeComCorExistente[4,6]
+    78 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,7]
                                    0                          -0 
-   198 colorirVerticeComCorExistente[4,7]
+    79 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,8]
+                                   0                          -0 
+    80 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,9]
+                                   0                          -0 
+    81 arcoSemDoisVerticesMesmaCorQueEhUtilizada[3,8,10]
+                                   0                          -0 
+    82 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,1]
+                                   0                          -0 
+    83 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,2]
+                                   0                          -0 
+    84 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,3]
+                                   0                          -0 
+    85 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,4]
+                                   0                          -0 
+    86 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,5]
+                                   0                          -0 
+    87 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,6]
+                                   0                          -0 
+    88 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,7]
+                                   0                          -0 
+    89 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,8]
+                                   0                          -0 
+    90 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,9]
+                                   0                          -0 
+    91 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,7,10]
                                   -1                          -0 
-   199 colorirVerticeComCorExistente[4,8]
-                                   0                          -0 
-   200 colorirVerticeComCorExistente[4,9]
-                                   0                          -0 
-   201 colorirVerticeComCorExistente[4,10]
-                                   0                          -0 
-   202 colorirVerticeComCorExistente[5,1]
-                                   0                          -0 
-   203 colorirVerticeComCorExistente[5,2]
-                                   0                          -0 
-   204 colorirVerticeComCorExistente[5,3]
-                                   0                          -0 
-   205 colorirVerticeComCorExistente[5,4]
-                                   0                          -0 
-   206 colorirVerticeComCorExistente[5,5]
-                                   0                          -0 
-   207 colorirVerticeComCorExistente[5,6]
-                                   0                          -0 
-   208 colorirVerticeComCorExistente[5,7]
+    92 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,1]
                                   -1                          -0 
-   209 colorirVerticeComCorExistente[5,8]
+    93 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,2]
                                    0                          -0 
-   210 colorirVerticeComCorExistente[5,9]
+    94 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,3]
+                                   0                          -0 
+    95 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,4]
+                                   0                          -0 
+    96 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,5]
+                                   0                          -0 
+    97 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,6]
+                                   0                          -0 
+    98 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,7]
+                                   0                          -0 
+    99 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,8]
+                                   0                          -0 
+   100 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,9]
+                                   0                          -0 
+   101 arcoSemDoisVerticesMesmaCorQueEhUtilizada[4,8,10]
+                                   0                          -0 
+   102 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,1]
                                   -1                          -0 
-   211 colorirVerticeComCorExistente[5,10]
+   103 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,2]
                                    0                          -0 
-   212 colorirVerticeComCorExistente[6,1]
+   104 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,3]
+                                   0                          -0 
+   105 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,4]
+                                   0                          -0 
+   106 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,5]
+                                   0                          -0 
+   107 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,6]
+                                   0                          -0 
+   108 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,7]
+                                   0                          -0 
+   109 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,8]
+                                   0                          -0 
+   110 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,9]
+                                   0                          -0 
+   111 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,6,10]
+                                   0                          -0 
+   112 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,1]
+                                   0                          -0 
+   113 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,2]
                                   -1                          -0 
-   213 colorirVerticeComCorExistente[6,2]
+   114 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,3]
                                    0                          -0 
-   214 colorirVerticeComCorExistente[6,3]
+   115 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,4]
                                    0                          -0 
-   215 colorirVerticeComCorExistente[6,4]
+   116 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,5]
                                    0                          -0 
-   216 colorirVerticeComCorExistente[6,5]
+   117 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,6]
                                    0                          -0 
-   217 colorirVerticeComCorExistente[6,6]
+   118 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,7]
                                    0                          -0 
-   218 colorirVerticeComCorExistente[6,7]
+   119 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,8]
+                                   0                          -0 
+   120 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,9]
+                                   0                          -0 
+   121 arcoSemDoisVerticesMesmaCorQueEhUtilizada[5,7,10]
+                                   0                          -0 
+   122 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,1]
+                                   0                          -0 
+   123 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,2]
+                                   0                          -0 
+   124 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,3]
+                                   0                          -0 
+   125 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,4]
+                                   0                          -0 
+   126 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,5]
+                                   0                          -0 
+   127 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,6]
+                                   0                          -0 
+   128 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,7]
+                                   0                          -0 
+   129 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,8]
+                                   0                          -0 
+   130 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,9]
+                                   0                          -0 
+   131 arcoSemDoisVerticesMesmaCorQueEhUtilizada[6,10,10]
                                   -1                          -0 
-   219 colorirVerticeComCorExistente[6,8]
+   132 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,1]
                                    0                          -0 
-   220 colorirVerticeComCorExistente[6,9]
+   133 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,2]
                                    0                          -0 
-   221 colorirVerticeComCorExistente[6,10]
+   134 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,3]
                                    0                          -0 
-   222 colorirVerticeComCorExistente[7,1]
+   135 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,4]
+                                   0                          -0 
+   136 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,5]
+                                   0                          -0 
+   137 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,6]
+                                   0                          -0 
+   138 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,7]
+                                   0                          -0 
+   139 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,8]
+                                   0                          -0 
+   140 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,9]
+                                   0                          -0 
+   141 arcoSemDoisVerticesMesmaCorQueEhUtilizada[7,9,10]
                                   -1                          -0 
-   223 colorirVerticeComCorExistente[7,2]
+   142 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,1]
                                    0                          -0 
-   224 colorirVerticeComCorExistente[7,3]
-                                   0                          -0 
-   225 colorirVerticeComCorExistente[7,4]
-                                   0                          -0 
-   226 colorirVerticeComCorExistente[7,5]
-                                   0                          -0 
-   227 colorirVerticeComCorExistente[7,6]
-                                   0                          -0 
-   228 colorirVerticeComCorExistente[7,7]
-                                   0                          -0 
-   229 colorirVerticeComCorExistente[7,8]
-                                   0                          -0 
-   230 colorirVerticeComCorExistente[7,9]
+   143 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,2]
                                   -1                          -0 
-   231 colorirVerticeComCorExistente[7,10]
+   144 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,3]
                                    0                          -0 
-   232 colorirVerticeComCorExistente[8,1]
+   145 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,4]
                                    0                          -0 
-   233 colorirVerticeComCorExistente[8,2]
+   146 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,5]
                                    0                          -0 
-   234 colorirVerticeComCorExistente[8,3]
+   147 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,6]
                                    0                          -0 
-   235 colorirVerticeComCorExistente[8,4]
+   148 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,7]
                                    0                          -0 
-   236 colorirVerticeComCorExistente[8,5]
+   149 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,8]
                                    0                          -0 
-   237 colorirVerticeComCorExistente[8,6]
+   150 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,9]
                                    0                          -0 
-   238 colorirVerticeComCorExistente[8,7]
+   151 arcoSemDoisVerticesMesmaCorQueEhUtilizada[8,10,10]
+                                   0                          -0 
+   152 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,1]
+                                   0                          -0 
+   153 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,2]
+                                   0                          -0 
+   154 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,3]
+                                   0                          -0 
+   155 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,4]
+                                   0                          -0 
+   156 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,5]
+                                   0                          -0 
+   157 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,6]
+                                   0                          -0 
+   158 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,7]
+                                   0                          -0 
+   159 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,8]
+                                   0                          -0 
+   160 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,9]
+                                   0                          -0 
+   161 arcoSemDoisVerticesMesmaCorQueEhUtilizada[9,10,10]
                                   -1                          -0 
-   239 colorirVerticeComCorExistente[8,8]
-                                   0                          -0 
-   240 colorirVerticeComCorExistente[8,9]
-                                  -1                          -0 
-   241 colorirVerticeComCorExistente[8,10]
-                                   0                          -0 
-   242 colorirVerticeComCorExistente[9,1]
-                                   0                          -0 
-   243 colorirVerticeComCorExistente[9,2]
-                                   0                          -0 
-   244 colorirVerticeComCorExistente[9,3]
-                                   0                          -0 
-   245 colorirVerticeComCorExistente[9,4]
-                                   0                          -0 
-   246 colorirVerticeComCorExistente[9,5]
-                                   0                          -0 
-   247 colorirVerticeComCorExistente[9,6]
-                                   0                          -0 
-   248 colorirVerticeComCorExistente[9,7]
-                                  -1                          -0 
-   249 colorirVerticeComCorExistente[9,8]
-                                   0                          -0 
-   250 colorirVerticeComCorExistente[9,9]
-                                  -1                          -0 
-   251 colorirVerticeComCorExistente[9,10]
-                                   0                          -0 
-   252 colorirVerticeComCorExistente[10,1]
-                                  -1                          -0 
-   253 colorirVerticeComCorExistente[10,2]
-                                   0                          -0 
-   254 colorirVerticeComCorExistente[10,3]
-                                   0                          -0 
-   255 colorirVerticeComCorExistente[10,4]
-                                   0                          -0 
-   256 colorirVerticeComCorExistente[10,5]
-                                   0                          -0 
-   257 colorirVerticeComCorExistente[10,6]
-                                   0                          -0 
-   258 colorirVerticeComCorExistente[10,7]
-                                   0                          -0 
-   259 colorirVerticeComCorExistente[10,8]
-                                   0                          -0 
-   260 colorirVerticeComCorExistente[10,9]
-                                  -1                          -0 
-   261 colorirVerticeComCorExistente[10,10]
-                                   0                          -0 
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 x[1,1]       *              0             0             1 
+     1 x[1,1]       *              1             0             1 
      2 x[1,2]       *              0             0             1 
      3 x[1,3]       *              0             0             1 
      4 x[1,4]       *              0             0             1 
      5 x[1,5]       *              0             0             1 
      6 x[1,6]       *              0             0             1 
-     7 x[1,7]       *              1             0             1 
+     7 x[1,7]       *              0             0             1 
      8 x[1,8]       *              0             0             1 
      9 x[1,9]       *              0             0             1 
     10 x[1,10]      *              0             0             1 
@@ -549,29 +349,29 @@ Objective:  qtdCores = 3 (MINimum)
     16 x[2,6]       *              0             0             1 
     17 x[2,7]       *              0             0             1 
     18 x[2,8]       *              0             0             1 
-    19 x[2,9]       *              1             0             1 
-    20 x[2,10]      *              0             0             1 
-    21 x[3,1]       *              0             0             1 
+    19 x[2,9]       *              0             0             1 
+    20 x[2,10]      *              1             0             1 
+    21 x[3,1]       *              1             0             1 
     22 x[3,2]       *              0             0             1 
     23 x[3,3]       *              0             0             1 
     24 x[3,4]       *              0             0             1 
     25 x[3,5]       *              0             0             1 
     26 x[3,6]       *              0             0             1 
-    27 x[3,7]       *              1             0             1 
+    27 x[3,7]       *              0             0             1 
     28 x[3,8]       *              0             0             1 
     29 x[3,9]       *              0             0             1 
     30 x[3,10]      *              0             0             1 
     31 x[4,1]       *              0             0             1 
-    32 x[4,2]       *              0             0             1 
+    32 x[4,2]       *              1             0             1 
     33 x[4,3]       *              0             0             1 
     34 x[4,4]       *              0             0             1 
     35 x[4,5]       *              0             0             1 
     36 x[4,6]       *              0             0             1 
     37 x[4,7]       *              0             0             1 
     38 x[4,8]       *              0             0             1 
-    39 x[4,9]       *              1             0             1 
+    39 x[4,9]       *              0             0             1 
     40 x[4,10]      *              0             0             1 
-    41 x[5,1]       *              1             0             1 
+    41 x[5,1]       *              0             0             1 
     42 x[5,2]       *              0             0             1 
     43 x[5,3]       *              0             0             1 
     44 x[5,4]       *              0             0             1 
@@ -580,28 +380,28 @@ Objective:  qtdCores = 3 (MINimum)
     47 x[5,7]       *              0             0             1 
     48 x[5,8]       *              0             0             1 
     49 x[5,9]       *              0             0             1 
-    50 x[5,10]      *              0             0             1 
+    50 x[5,10]      *              1             0             1 
     51 x[6,1]       *              0             0             1 
-    52 x[6,2]       *              0             0             1 
+    52 x[6,2]       *              1             0             1 
     53 x[6,3]       *              0             0             1 
     54 x[6,4]       *              0             0             1 
     55 x[6,5]       *              0             0             1 
     56 x[6,6]       *              0             0             1 
     57 x[6,7]       *              0             0             1 
     58 x[6,8]       *              0             0             1 
-    59 x[6,9]       *              1             0             1 
+    59 x[6,9]       *              0             0             1 
     60 x[6,10]      *              0             0             1 
-    61 x[7,1]       *              0             0             1 
+    61 x[7,1]       *              1             0             1 
     62 x[7,2]       *              0             0             1 
     63 x[7,3]       *              0             0             1 
     64 x[7,4]       *              0             0             1 
     65 x[7,5]       *              0             0             1 
     66 x[7,6]       *              0             0             1 
-    67 x[7,7]       *              1             0             1 
+    67 x[7,7]       *              0             0             1 
     68 x[7,8]       *              0             0             1 
     69 x[7,9]       *              0             0             1 
     70 x[7,10]      *              0             0             1 
-    71 x[8,1]       *              1             0             1 
+    71 x[8,1]       *              0             0             1 
     72 x[8,2]       *              0             0             1 
     73 x[8,3]       *              0             0             1 
     74 x[8,4]       *              0             0             1 
@@ -610,9 +410,9 @@ Objective:  qtdCores = 3 (MINimum)
     77 x[8,7]       *              0             0             1 
     78 x[8,8]       *              0             0             1 
     79 x[8,9]       *              0             0             1 
-    80 x[8,10]      *              0             0             1 
-    81 x[9,1]       *              1             0             1 
-    82 x[9,2]       *              0             0             1 
+    80 x[8,10]      *              1             0             1 
+    81 x[9,1]       *              0             0             1 
+    82 x[9,2]       *              1             0             1 
     83 x[9,3]       *              0             0             1 
     84 x[9,4]       *              0             0             1 
     85 x[9,5]       *              0             0             1 
@@ -621,26 +421,26 @@ Objective:  qtdCores = 3 (MINimum)
     88 x[9,8]       *              0             0             1 
     89 x[9,9]       *              0             0             1 
     90 x[9,10]      *              0             0             1 
-    91 x[10,1]      *              0             0             1 
+    91 x[10,1]      *              1             0             1 
     92 x[10,2]      *              0             0             1 
     93 x[10,3]      *              0             0             1 
     94 x[10,4]      *              0             0             1 
     95 x[10,5]      *              0             0             1 
     96 x[10,6]      *              0             0             1 
-    97 x[10,7]      *              1             0             1 
+    97 x[10,7]      *              0             0             1 
     98 x[10,8]      *              0             0             1 
     99 x[10,9]      *              0             0             1 
    100 x[10,10]     *              0             0             1 
    101 y[1]         *              1             0             1 
-   102 y[2]         *              0             0             1 
+   102 y[2]         *              1             0             1 
    103 y[3]         *              0             0             1 
    104 y[4]         *              0             0             1 
    105 y[5]         *              0             0             1 
    106 y[6]         *              0             0             1 
-   107 y[7]         *              1             0             1 
+   107 y[7]         *              0             0             1 
    108 y[8]         *              0             0             1 
-   109 y[9]         *              1             0             1 
-   110 y[10]        *              0             0             1 
+   109 y[9]         *              0             0             1 
+   110 y[10]        *              1             0             1 
 
 Integer feasibility conditions:
 
