@@ -1,8 +1,9 @@
 import networkx as nx
+import sys
 
 G = nx.Graph()
 
-with open("2-FullIns_4.col", "r") as f:
+with open("instances/2-FullIns_4.col", "r") as f:
     
     for i in range(6):
         f.readline()
