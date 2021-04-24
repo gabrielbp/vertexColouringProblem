@@ -1,9 +1,22 @@
 import networkx as nx
 import sys
 
+testMode = len(sys.argv) == 2 and sys.argv[1] == "test"
+
+if (len(sys.argv) != 3 and not testMode):
+    print("a chamada ao programa deve ser: \"python tabuSearch.py <seed> <instancia de grafo>\"")
+
+if (testMode):
+    seed = 0
+    instanceFileName = "instances/2-FullIns_4.col"
+else:
+    seed = int(sys.argv[1])
+    instanceFileName = sys.argv[2]
+
+
 G = nx.Graph()
 
-with open("instances/2-FullIns_4.col", "r") as f:
+with open(instanceFileName, "r") as f:
     
     for i in range(6):
         f.readline()
