@@ -3,6 +3,8 @@ import sys
 import matplotlib.pyplot as plt
 import random
 import copy
+import datetime
+from math import floor
 
 testMode = len(sys.argv) == 2 and sys.argv[1] == "test"
 
@@ -53,7 +55,7 @@ with open(instanceFileName, "r") as f:
         G.add_edge(int(edgeString.split()[1]) - 1, int(edgeString.split()[2]) - 1)
 
 
-maxIterationsWithoutImprovement = n_nodes*1000
+maxIterationsWithoutImprovement = n_nodes*10
 numberOfNeighbours = 110
 tabuQueueSize = n_nodes*5
 
@@ -65,6 +67,8 @@ iteration = 0
 iterationsWithoutImprovement = 0
 bestSolutionValue = n_nodes
 currentSolutionValue = n_nodes
+
+timeStart = datetime.datetime.now()
 
 while iterationsWithoutImprovement < maxIterationsWithoutImprovement:
     bestNeighbourValue = len(set(coloring))
@@ -95,6 +99,10 @@ while iterationsWithoutImprovement < maxIterationsWithoutImprovement:
     iteration += 1
     iterationsWithoutImprovement += 1
 
+
+seconds = (datetime.datetime.now() - timeStart) / datetime.timedelta(microseconds=1) / 1000000
+timeString = f'{floor(max(seconds,0))//60:02d}:{floor(max(seconds,0))%60:02d}'
+print(f'time since start: {timeString}')
 
 nx.draw(G, node_color=coloring, with_labels=True)
 plt.show()
