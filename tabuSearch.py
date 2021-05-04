@@ -51,15 +51,11 @@ with open(instanceFileName, "r") as f:
     for i in range(n_edges):
         edgeString = f.readline()
         G.add_edge(int(edgeString.split()[1]) - 1, int(edgeString.split()[2]) - 1)
-    
-    print(list(G[1].keys()))
 
 
-# list(G[1].keys()) - lista de vértices adjacentes de 1
-
-maxIterationsWithoutImprovement = n_nodes
+maxIterationsWithoutImprovement = n_nodes*1000
 numberOfNeighbours = 110
-tabuQueueSize = n_nodes
+tabuQueueSize = n_nodes*5
 
 coloring = [i for i in range(n_nodes)]
 
@@ -99,7 +95,6 @@ while iterationsWithoutImprovement < maxIterationsWithoutImprovement:
     iteration += 1
     iterationsWithoutImprovement += 1
 
-print(set(coloring))
 
-nx.draw_shell(G, node_color=coloring, with_labels=True)
+nx.draw(G, node_color=coloring, with_labels=True)
 plt.show()
