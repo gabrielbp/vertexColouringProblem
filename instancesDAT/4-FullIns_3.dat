@@ -2,9 +2,9 @@
 data;
 /* Colocar os dados */
 
-param n := 541;
+param n := 114;
 
-set ARCOS := 114
+set ARCOS :=
 1 2
 1 4
 1 20
