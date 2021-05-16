@@ -3,7 +3,8 @@
 ## Tutorial
 
 1. Instalar [Python](https://www.python.org/downloads/)
-2. rodar `python tabuSearch.py <seed> <arquivo>` no terminal/linha de comando onde:
+2. Instalar a biblioteca networkx, rodando `pip install networkx` no terminal/linha de comando
+3. rodar `python tabuSearch.py <seed> <arquivo>` no terminal/linha de comando onde:
   - `<seed>` é um número inteiro que serve como seed para a geração de números aleatórios
   - `<arquivo>` é o arquivo .col contendo os dados da instância para a qual resolver.
  

@@ -1,6 +1,5 @@
 import networkx as nx
 import sys
-import matplotlib.pyplot as plt
 import random
 import copy
 import datetime
@@ -10,12 +9,10 @@ from math import floor
 if (len(sys.argv) != 3):
     print("a chamada ao programa deve ser: \"python tabuSearch.py <seed> <instancia de grafo>\"")
 
-
 seed = int(sys.argv[1])
 instanceFileName = sys.argv[2]
 
 random.seed(a=seed)
-
 
 def generateNeighbour(graph, coloring, tabuQueue):
     n_nodes = graph.number_of_nodes()
