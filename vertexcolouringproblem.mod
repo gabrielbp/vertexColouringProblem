@@ -22,4 +22,3 @@ minimize qtdCores: sum{c in CORES} y[c];
 /* Restrições */
 s.t. verticeTemCor {u in VERTICES}: sum{c in CORES} x[u,c] = 1;
 s.t. arcoSemDoisVerticesMesmaCorQueEhUtilizada {(u,v) in ARCOS, c in CORES}: x[u,c] + x[v,c] <= y[c];
-s.t. coresDeIndiceMenorEhUsadoPrimeiro {c in CORES, d in CORES: d == c + 1} : sum{u in VERTICES} x[u,c] >= sum{u in VERTICES} x[u,d];
