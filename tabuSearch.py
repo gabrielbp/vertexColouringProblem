@@ -139,13 +139,13 @@ while iteration < maxIterations:
         tabuQueue.insert(0, bestNeighbourChangedNode)
 
     iteration += 1
-    print(iteration)
     iterationsWithoutImprovement += 1
 
 
 seconds = (datetime.datetime.now() - timeStart) / datetime.timedelta(microseconds=1) / 1000000
 timeString = f'{floor(max(seconds,0))//60:02d}:{floor(max(seconds,0))%60:02d}'
 print(f'time since start: {timeString}')
+print(iteration)
 
 # print(coloring)
 
