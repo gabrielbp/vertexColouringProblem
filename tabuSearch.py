@@ -6,19 +6,13 @@ import copy
 import datetime
 from math import floor
 
-from networkx.classes.function import neighbors
 
-testMode = len(sys.argv) == 2 and sys.argv[1] == "test"
-
-if (len(sys.argv) != 3 and not testMode):
+if (len(sys.argv) != 3):
     print("a chamada ao programa deve ser: \"python tabuSearch.py <seed> <instancia de grafo>\"")
 
-if (testMode):
-    seed = 0
-    instanceFileName = "instances/2-FullIns_3.col"
-else:
-    seed = int(sys.argv[1])
-    instanceFileName = sys.argv[2]
+
+seed = int(sys.argv[1])
+instanceFileName = sys.argv[2]
 
 random.seed(a=seed)
 
@@ -28,7 +22,6 @@ def generateNeighbour(graph, coloring, tabuQueue):
     random_node = random.randint(0, n_nodes-1)
 
     color_space = set(range(len(coloring)))
-    #color_space = set(coloring)
     color_space -= set([coloring[neighbour] for neighbour in list(G[random_node].keys())])
     color_space -= {coloring[random_node]}
     color_space -= set([x for x in tabuQueue if x[0] == random_node])
@@ -73,10 +66,8 @@ with open(instanceFileName, "r") as f:
         G.add_edge(int(edgeString.split()[1]) - 1, int(edgeString.split()[2]) - 1)
 
 
-#maxIterationsWithoutImprovement = 50 * 20000 * 200 * n_nodes // (n_edges * 28)
-maxIterationsWithoutImprovement = 25000
-maxIterations = 5000 * 52 * 52 // (n_nodes + 20) ** 2
-numberOfNeighbours = 154*3
+maxIterations = 13520000 // (n_nodes + 20) ** 2
+numberOfNeighbours = 150*3
 tabuQueueSize = n_nodes*10
 maxNeighbourSize = 17000
 
@@ -91,7 +82,6 @@ currentSolutionValue = n_nodes
 
 timeStart = datetime.datetime.now()
 
-#while iterationsWithoutImprovement < maxIterationsWithoutImprovement:
 while iteration < maxIterations:
     bestNeighbourValue = len(set(coloring))
     bestNeighbour = coloring
@@ -139,15 +129,8 @@ while iteration < maxIterations:
         tabuQueue.insert(0, bestNeighbourChangedNode)
 
     iteration += 1
-    iterationsWithoutImprovement += 1
 
 
 seconds = (datetime.datetime.now() - timeStart) / datetime.timedelta(microseconds=1) / 1000000
 timeString = f'{floor(max(seconds,0))//60:02d}:{floor(max(seconds,0))%60:02d}'
 print(f'time since start: {timeString}')
-print(iteration)
-
-# print(coloring)
-
-# nx.draw(G, node_color=coloring, with_labels=True)
-# plt.show()
