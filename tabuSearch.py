@@ -74,7 +74,7 @@ with open(instanceFileName, "r") as f:
 
 
 #maxIterationsWithoutImprovement = 50 * 20000 * 200 * n_nodes // (n_edges * 28)
-maxIterationsWithoutImprovement = 5000
+maxIterationsWithoutImprovement = 30000
 numberOfNeighbours = 154*3
 tabuQueueSize = n_nodes*10
 
@@ -96,15 +96,22 @@ while iterationsWithoutImprovement < maxIterationsWithoutImprovement:
 
     neighbourhood = generateNeighbourhood(G, coloring, tabuQueue)
 
+    bestNeighbours = []
     for i in neighbourhood:
         neighbourColoring = copy.deepcopy(coloring)
         neighbourColoring[i[0]] = i[1]
         changedNode = (i[0], coloring[i[0]])
         currentSolutionValue = len(set(neighbourColoring))
-        if (currentSolutionValue < bestNeighbourValue):
+        if (currentSolutionValue <= bestNeighbourValue):
+            if (currentSolutionValue < bestNeighbourValue):
+                bestNeighbours = []
             bestNeighbourValue = currentSolutionValue
-            bestNeighbour = neighbourColoring
-            bestNeighbourChangedNode = changedNode
+            bestNeighbours.append((bestNeighbourValue, neighbourColoring, bestNeighbourChangedNode))
+    
+    randomBestNeighbour = random.sample(bestNeighbours, 1)[0]
+    bestNeighbourValue = randomBestNeighbour[0]
+    bestNeighbour = randomBestNeighbour[1]
+    bestNeighbourChangedNode = randomBestNeighbour[2]
 
     # for i in range(numberOfNeighbours):
     #     neighbourColoring, changedNode = generateNeighbour(G, coloring, tabuQueue)
@@ -135,7 +142,7 @@ seconds = (datetime.datetime.now() - timeStart) / datetime.timedelta(microsecond
 timeString = f'{floor(max(seconds,0))//60:02d}:{floor(max(seconds,0))%60:02d}'
 print(f'time since start: {timeString}')
 
-print(coloring)
+# print(coloring)
 
-nx.draw(G, node_color=coloring, with_labels=True)
-plt.show()
+# nx.draw(G, node_color=coloring, with_labels=True)
+# plt.show()
