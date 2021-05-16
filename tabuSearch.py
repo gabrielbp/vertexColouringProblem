@@ -25,7 +25,8 @@ def generateNeighbour(graph, coloring, tabuQueue):
     n_nodes = graph.number_of_nodes()
     random_node = random.randint(0, n_nodes-1)
 
-    color_space = set(coloring)
+    color_space = set(range(len(coloring)))
+    #color_space = set(coloring)
     color_space -= set([coloring[neighbour] for neighbour in list(G[random_node].keys())])
     color_space -= {coloring[random_node]}
     color_space -= set([x for x in tabuQueue if x[0] == random_node])
@@ -43,21 +44,21 @@ n_edges = 0
 
 with open(instanceFileName, "r") as f:
     
-    for i in range(6):
-        f.readline()
+    line = f.readline()
+    while (len(line.split()) == 0 or line.split()[0] != 'p'):
+        line = f.readline()
     
-    infoGraph = f.readline()
-    n_nodes = int(infoGraph.split()[2])
-    n_edges = int(infoGraph.split()[3])
+    n_nodes = int(line.split()[2])
+    n_edges = int(line.split()[3])
     
     for i in range(n_edges):
         edgeString = f.readline()
         G.add_edge(int(edgeString.split()[1]) - 1, int(edgeString.split()[2]) - 1)
 
 
-maxIterationsWithoutImprovement = n_nodes*10
-numberOfNeighbours = 110
-tabuQueueSize = n_nodes*5
+maxIterationsWithoutImprovement = 50 * 20000 * 200 * n_nodes // (n_edges * 28)
+numberOfNeighbours = 50
+tabuQueueSize = n_nodes*10
 
 coloring = [i for i in range(n_nodes)]
 
